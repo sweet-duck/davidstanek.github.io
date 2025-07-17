@@ -26,7 +26,7 @@ export const Button: React.FC<ButtonProps> = ({
             case 'secondary':
                 return 'border-2 border-white/20 text-white hover:bg-white/10';
             case 'gradient':
-                return 'text-white'; // Custom gradient will be applied via className
+                return 'text-white';
             default:
                 return 'bg-gradient-to-r from-purple-600 to-blue-600 text-white shadow-lg hover:shadow-purple-500/25';
         }
